@@ -3,25 +3,7 @@
 This script allows you to get a little more information about the state of Sublime Text 2, you can use when writing their own plugins.
 
 ##Installation
-You can copy `ST2Assistant.py` to directory where installed Sublime Text 2, or to **User** package directory.
-
-The **User** package directory is located at:
-
-* OS X:
-
-        ~/Library/Application Support/Sublime Text 2/Packages/User
-
-* Linux:
-
-        ~/.config/sublime-text-2/Packages/User
-
-* Windows:
-
-        %APPDATA%/Sublime Text 2/Packages/User
-
-    If you use portable version:
-
-        <Sublime Text 2 directory>/Data/Packages/User
+Copy `ST2Assistant.py` to your package directory.
 
 ##Usage
     import ST2Assistant
@@ -32,5 +14,8 @@ The **User** package directory is located at:
     else:
         print 'Side bar is hidden'
 
-##Functions
-[List of functions](ST2Assistant/wiki/Functions)
+##List of functions
+* `is_portable()` - return **True** if installed as portable, **False** if not
+* `is_minimap_visible()` - return **True** if mini map is visible, **False** if not
+* `is_status_bar_visible()` - return **True** if status bar is visible, **False** if not
+* `is_side_bar_visible()` - return **True** if side bar is visible, **False** if not
