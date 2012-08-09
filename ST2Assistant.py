@@ -32,15 +32,6 @@ class Assistant():
         _, _dir = os.path.split(self.st_path)
         return _dir == u'Data'
 
-    def platform(self):
-        return sublime.platform()
-
-    def version(self):
-        return sublime.version()
-
-    def arch(self):
-        return sublime.arch()
-
     def is_minimap_visible(self):
         return self.session['windows'][0]['show_minimap']
 
