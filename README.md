@@ -24,13 +24,13 @@ The **User** package directory is located at:
         <Sublime Text 2 directory>/Data/Packages/User
 
 ##Usage
-`import ST2Assistant
-...
-assistant = ST2Assistant.assistant()
-if assistant.is_side_bar_visible():
-    print 'Side bar is visible'
-else:
-    print 'Side bar is hidden'`
+    import ST2Assistant
+    ...
+    assistant = ST2Assistant.assistant()
+    if assistant.is_side_bar_visible():
+        print 'Side bar is visible'
+    else:
+        print 'Side bar is hidden'
 
 ##Functions
-[List of functions](wiki/functions)
+[List of functions](wiki/Functions)
