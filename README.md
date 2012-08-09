@@ -2,8 +2,8 @@
 
 This script allows you to get a little more information about the state of Sublime Text 2, you can use when writing their own plugins.
 
-##Instalation
-You can copy `ST2Assistant.py` to directory when instaled Sublime Text 2, or to **User** package directory.
+##Installation
+You can copy `ST2Assistant.py` to directory when installed Sublime Text 2, or to **User** package directory.
 
 The **User** package directory is located at:
 
