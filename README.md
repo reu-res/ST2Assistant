@@ -3,7 +3,7 @@
 This script allows you to get a little more information about the state of Sublime Text 2, you can use when writing their own plugins.
 
 ##Installation
-You can copy `ST2Assistant.py` to directory when installed Sublime Text 2, or to **User** package directory.
+You can copy `ST2Assistant.py` to directory where installed Sublime Text 2, or to **User** package directory.
 
 The **User** package directory is located at:
 
@@ -33,4 +33,4 @@ The **User** package directory is located at:
         print 'Side bar is hidden'
 
 ##Functions
-[List of functions](wiki/Functions)
+[List of functions](ST2Assistant/wiki/Functions)
