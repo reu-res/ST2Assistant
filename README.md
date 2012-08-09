@@ -8,7 +8,7 @@ Copy `ST2Assistant.py` to your package directory.
 ##Usage
     import ST2Assistant
     ...
-    assistant = ST2Assistant.assistant()
+    assistant = ST2Assistant.Assistant()
     if assistant.is_side_bar_visible():
         print 'Side bar is visible'
     else:
