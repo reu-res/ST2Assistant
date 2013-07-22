@@ -6,14 +6,15 @@ This script allows you to get a little more information about the state of Subli
 Copy `ST2Assistant.py` to your package directory.
 
 ##Usage
-    import ST2Assistant
-    ...
-    assistant = ST2Assistant.Assistant()
-    if assistant.is_side_bar_visible():
-        print 'Side bar is visible'
-    else:
-        print 'Side bar is hidden'
-
+```python
+import ST2Assistant
+...
+assistant = ST2Assistant.Assistant()
+if assistant.is_side_bar_visible():
+    print 'Side bar is visible'
+else:
+    print 'Side bar is hidden'
+```
 ##List of functions
 * `is_portable()` - return **True** if installed as portable, **False** if not
 * `is_minimap_visible()` - return **True** if mini map is visible, **False** if not
